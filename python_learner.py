@@ -120,7 +120,7 @@ print(ear)
 print(d)
 
 #File manipulation
-file = open('OdeToPoop.txt')
+file = open('OwnedGnome.txt')
 count = 0
 Mcount = 0
 for line in file:
@@ -128,7 +128,7 @@ for line in file:
         Mcount = Mcount+1
     print(line.rstrip()) #gets rid of extra \n
     count = count+1
-print("line count:",count,"First letter M:",Mcount)
+print("line count:",count,"First letter N:",Mcount)
 print(d)
 
 #Dictionary
